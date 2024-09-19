@@ -3,12 +3,11 @@ import "bootstrap";
 import "./style.css";
 
 window.onload = function() {
-  //write your code here
   let who = [
     "Ronald McDonald",
     "Uruguayan Spiderman",
     "a homeless man",
-    "the policeman of Village People",
+    "a Village People guy",
     "a Disco Stu guy"
   ];
   let action = [
@@ -30,7 +29,7 @@ window.onload = function() {
     "while I was buying my lunch",
     "when I was on my way to the office",
     "while I was taking my daily nap",
-    "while he was hanging over the street"
+    "while was hanging over the street"
   ];
 
   function random(array) {

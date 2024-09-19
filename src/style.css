@@ -1,9 +1,112 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;800&display=swap");
 
+* {
+  font-family: Roboto;
+  font-size: x-large;
+}
 body {
   background-color: black;
+  align-content: center;
 }
 
-h1 {
+#fondo {
+  position: relative;
+  height: 100vb;
+  justify-content: center;
+}
+
+#image-fondo {
+  height: 100%;
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  transform: translate(-50%, 0%);
+}
+
+#boss-message-fondo {
+  position: absolute;
+  top: 26%;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+  transform: translate(-50%, -50%);
+}
+
+#boss-message-text {
+  position: absolute;
+  top: 26%;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  transform: translate(-50%, -50%);
+  padding-left: 25px;
+}
+
+#bossMessage {
+  position: absolute;
+  top: 26%;
+  left: 36%;
+  width: 45%;
+  height: 65px;
+  transform: translate(-50%, -50%);
+}
+
+#myMessage {
+  position: absolute;
+  top: 50%;
+  left: 61%;
+  width: 50%;
+  height: 120px;
+  transform: translate(-50%, -50%);
+  padding: 0px;
+}
+
+#my-message-fondo {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  width: 100%;
+  height: 100px;
+  transform: translate(-50%, -50%);
+}
+
+#my-message-text {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  width: 100%;
+  height: 100px;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+h6 {
+  color: white !important;
+  padding-top: 10px;
+}
+
+p {
   color: white;
+  padding: 10px;
+}
+
+#bossData {
+  position: absolute;
+  top: 4%;
+  left: 27%;
+  width: 28%;
+  height: 50px;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: space-between;
+}
+
+#boss-photo {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
 }
